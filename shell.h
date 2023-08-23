@@ -15,7 +15,10 @@
 
 /* The Global environemnt */
 extern char **environ;
-
+/* The Global program name */
+char *name;
+/* The Global history counter */
+int hist;
 /**
  * struct list_s - new struct type defining a linked list.
  * @dir: A directory path.
