@@ -29,7 +29,7 @@ void help_all(void)
 }
 
 /**
- * help_alias - This displays information on the shellby builtin command 'alias'.
+ * help_alias - This displays information on the shell builtin command 'alias'.
  */
 void help_alias(void)
 {
