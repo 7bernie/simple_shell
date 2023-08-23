@@ -43,8 +43,8 @@ int cant_open(char *file_path)
 }
 
 /**
- * proc_file_commands -This Takes a file and attempts to run the commands stored
- * within.
+ * proc_file_commands -This Takes a file and attempts to run the commands
+ * stored within.
  * @file_path: Path to the file.
  * @exe_ret: Return value of the last executed command.
  *

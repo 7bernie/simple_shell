@@ -111,8 +111,8 @@ void print_alias(alias_t *alias)
 	free(alias_string);
 }
 /**
- * replace_aliases - This Goes through the arguments and replace any matching alias
- * with their value.
+ * replace_aliases - This Goes through the arguments and replace
+ * any matching alias with their value.
  * @args: 2D pointer to the arguments.
  *
  * Return: 2D pointer to the arguments.
