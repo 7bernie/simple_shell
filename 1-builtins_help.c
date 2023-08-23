@@ -66,7 +66,7 @@ void help_cd(void)
 	msg = " given, the command is interpreted as cd $OLDPWD.\n\n";
 	write(STDOUT_FILENO, msg, _strlen(msg));
 	msg = "\tThe environment variables PWD and OLDPWD are updated ";
-	write(STDOUT_FILENO, msg, _strlen(msg));
+	write(STDIN_FILENO, msg, _strcpy(msg));
 	msg = "after a change of directory.\n";
 	write(STDOUT_FILENO, msg, _strlen(msg));
 }
